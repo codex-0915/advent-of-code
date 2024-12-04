@@ -2,6 +2,8 @@
 
 # Advent of Code 2024 Day 1 Part 1 Solution
 
+import os
+
 def extract_left_right_list(data):
     """
     Extracts the left and right lists from the given file.
@@ -56,7 +58,8 @@ def main():
 
     :return: None
     """
-    data = "input.txt"
+    dirname = os.path.dirname(__file__)
+    data = os.path.join(dirname, "input.txt")
     left_list = []
     right_list = []
     distance_sum = 0

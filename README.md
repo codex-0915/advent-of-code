@@ -8,7 +8,7 @@ This repository contains my solutions to the Advent of Code challenges. I'm doin
 
 To use this repository, simply clone it to your local machine and navigate to the appropriate directory for the day's challenges. Each day's challenges will be in a separate directory, with a separate file for each problem.
 
-For example, to solve the first problem for day 1, navigate to the `day01` directory and open the `part01.py` file. Update `input.txt` with the given unique puzzle input, and then run the solution. To run the solution, run `python part01.py`.
+For example, to solve the first problem for day 1, navigate to the `day01` directory and open the `part01.py` file. Add `input.txt` with the given unique puzzle input, and then run the solution. To run the solution, run `python part01.py`.
 
 ## Contributing
 
